@@ -30,7 +30,7 @@ export default function PinkyChatbot() {
     setLoading(true);
 
     try {
-        const res = await fetch("https://pinky-e6xe.onrender.com", 
+        const res = await fetch("https://pinky-e6xe.onrender.com/chatbot/", 
         {
         method: "POST",
         headers: {
