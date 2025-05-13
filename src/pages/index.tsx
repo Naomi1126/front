@@ -73,7 +73,7 @@ export default function PinkyChatbot() {
     setFuente("");
     setImagen(null);
   };
-
+/* Hola*/
   const renderFuente = (fuente: Fuente) => {
     switch (fuente) {
       case "wolfram":
